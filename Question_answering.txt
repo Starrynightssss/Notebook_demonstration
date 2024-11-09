@@ -1,0 +1,17 @@
+Query: "What factors most strongly predict customer churn as per the report?"
+Response: "This response draws on your provided sources and our conversation history to address your query.
+
+### Key Factors Predicting Customer Churn
+
+The report identifies several factors that strongly predict customer churn for ABC E-commerce. These factors emerge from the analysis of customer characteristics and the development of predictive models. 
+
+*   **Tenure:**  The report consistently highlights **Tenure** as a crucial predictor of churn. Customers with **shorter tenure** are significantly more likely to churn. This finding is evident across all three predictive models: Decision Tree, Regression, and Neural Network. The Decision Tree model specifically identifies tenure as the most important predictor, and it's a primary split in the tree structure. 
+
+*   **Complaints:**  The presence of **customer complaints** is another strong predictor of churn. Both the Decision Tree and Regression models identify complaints as a highly significant variable. Customers who have lodged complaints are more likely to churn, particularly those with shorter tenure.
+
+*   **Preferred Payment Mode:** The choice of **e-wallet** as a preferred payment method is associated with a higher churn risk. This trend appears in the Neural Network model and is consistent with observations in Task 1. The report suggests that a lack of digital incentives for e-wallet users might be contributing to churn. 
+
+*   **Order Category:**  Customers who frequently purchase from specific product categories, such as **Mobile Phones or Laptop & Accessories**, exhibit a higher propensity to churn. This pattern is observed in both the Decision Tree and Neural Network models. 
+
+In summary, **shorter tenure, the presence of complaints, a preference for e-wallet payments, and specific product category preferences** are the most potent predictors of customer churn for ABC E-commerce as per the report. These insights should guide the company's customer retention strategies and targeted interventions.
+"

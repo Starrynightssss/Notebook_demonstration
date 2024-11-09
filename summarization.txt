@@ -1,0 +1,52 @@
+Query: "Summarize this document"
+Response: "This document is a report on customer churn analysis for ABC E-commerce, a leading online retailer. The report aims to analyse customer data to understand churn behaviour, develop predictive models, and recommend data-driven strategies to improve customer retention.
+
+### Task 1: Understanding Customer Characteristics
+
+The report uses Excel and Tableau to understand the characteristics of churned, non-churned, and high-value customers. 
+
+**Key findings** from this analysis include:
+
+* **Tenure:** Non-churned customers have a significantly higher average tenure than churned customers, suggesting that longer tenure correlates with customer loyalty. High-value customers also have a higher average tenure.
+
+* **Preferred Payment Type:** The use of debit and credit cards is prominent in both churned and non-churned high-value customers. However, card use is more prevalent among non-churned customers, indicating that high-value customers who stay with the company may be more comfortable with these conventional payment methods. More churned customers prefer e-wallets, suggesting a lack of digital incentives might contribute to churn.
+
+* **Average Order Count:** High-value customers have a higher average order count, aligning with their status as frequent buyers.  A slight drop in the frequency of purchases among churned customers could be an early warning sign of churn.
+
+* **Satisfaction Score:** Surprisingly, churned customers have a higher average satisfaction score than non-churned customers. This suggests that satisfaction scores alone may not be a reliable predictor of churn.
+
+* **Days Since Last Order:**  Non-churned high-value customers tend to have engaged with the company more recently than churned high-value customers. This suggests that recent engagement is a strong indicator of retention among high-value customers.
+
+### Task 2: Predictive Modelling
+
+The report develops and evaluates three predictive models to assess customer churn:
+
+* **Decision Tree Model:** 
+    * The most important variables in this model are tenure and complaints. 
+    * Customers with low tenure who have made complaints, and customers with low tenure who prefer specific product categories (Fashion or Mobile Phones) are most likely to churn. 
+
+* **Regression Model:**
+    * The most significant variables in this model are complaints, the number of devices registered, marital status (married), cashback amount, and city tier.
+
+* **Neural Network Model:**
+    * The most influential variables in this model are gender (female), city tier, tenure, preferred order category (mobile phone and laptop & accessory), and preferred payment mode (e-wallet).
+
+The report then evaluates the models using various metrics, including ROC (AUC), lift, misclassification rate, and average squared error.
+
+* **Neural Network** performs best across all metrics.
+* **Regression** performs slightly below the Neural Network.
+* **Decision Tree** ranks lowest in terms of predictive accuracy.
+
+Despite the superior performance of the Neural Network, the report recommends the **Decision Tree model** as the best choice for ABC E-commerce due to its **high interpretability** and **actionable insights**, which can guide targeted interventions.
+
+### Task 3: Campaign Recommendations
+
+Based on the insights from Task 1 and Task 2, the report recommends the following campaigns:
+
+* **Welcome and Onboarding Program for New Customers:** To increase engagement and satisfaction among new customers.
+
+* **Complaint Resolution and Satisfaction Improvement Program:** To address customer complaints promptly and improve satisfaction scores.
+
+* **Loyalty Program Tailored to Payment Preferences and Product Categories:** To retain customers who are more likely to churn due to payment preferences or specific product categories. 
+
+These recommendations are supported by research and best practices in customer retention. "
